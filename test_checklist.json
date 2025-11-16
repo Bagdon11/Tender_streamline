@@ -1,0 +1,284 @@
+{
+  "title": "Tender Submission Checklist",
+  "generated_date": "2025-10-12T11:00:40.759111",
+  "categories": {
+    "Documentation": {
+      "items": [
+        {
+          "id": "doc_1",
+          "text": "Gather current licenses and permits",
+          "completed": false,
+          "priority": "high",
+          "estimated_hours": 2,
+          "notes": "",
+          "attachments": []
+        },
+        {
+          "id": "doc_2",
+          "text": "Complete all required forms and applications",
+          "completed": false,
+          "priority": "high",
+          "estimated_hours": 2,
+          "notes": "",
+          "attachments": []
+        },
+        {
+          "id": "doc_3",
+          "text": "Prepare required number of document copies",
+          "completed": false,
+          "priority": "high",
+          "estimated_hours": 2,
+          "notes": "",
+          "attachments": []
+        },
+        {
+          "id": "doc_4",
+          "text": "Address requirement: Format: Hard copy and electronic submission required",
+          "completed": false,
+          "priority": "high",
+          "estimated_hours": 3,
+          "notes": "Specific requirement from document: Format: Hard copy and electronic submission required",
+          "attachments": []
+        },
+        {
+          "id": "doc_5",
+          "text": "Address requirement: signed and sealed proposals by the deadline SUBMISSION DETAILS: - Submission deadline: March 15, 2024 - Format: Hard copy and electro",
+          "completed": false,
+          "priority": "high",
+          "estimated_hours": 3,
+          "notes": "Specific requirement from document: signed and sealed proposals by the deadline SUBMISSION DETAILS: - Submission deadline: March 15, 2024 - Format: Hard copy and electro",
+          "attachments": []
+        }
+      ],
+      "completed": 0,
+      "total": 5,
+      "priority": "high"
+    },
+    "Technical Requirements": {
+      "items": [
+        {
+          "id": "tech_1",
+          "text": "Review all technical specifications and requirements",
+          "completed": false,
+          "priority": "high",
+          "estimated_hours": 4,
+          "notes": "",
+          "attachments": []
+        },
+        {
+          "id": "tech_2",
+          "text": "Ensure compliance with quality and performance standards",
+          "completed": false,
+          "priority": "high",
+          "estimated_hours": 4,
+          "notes": "",
+          "attachments": []
+        }
+      ],
+      "completed": 0,
+      "total": 2,
+      "priority": "medium"
+    },
+    "Financial": {
+      "items": [
+        {
+          "id": "fin_1",
+          "text": "Prepare detailed budget breakdown",
+          "completed": false,
+          "priority": "high",
+          "estimated_hours": 3,
+          "notes": "",
+          "attachments": []
+        },
+        {
+          "id": "fin_2",
+          "text": "Review payment terms and financial obligations",
+          "completed": false,
+          "priority": "high",
+          "estimated_hours": 3,
+          "notes": "",
+          "attachments": []
+        }
+      ],
+      "completed": 0,
+      "total": 2,
+      "priority": "high"
+    },
+    "Timeline & Delivery": {
+      "items": [
+        {
+          "id": "time_1",
+          "text": "Note all submission deadlines and due dates",
+          "completed": false,
+          "priority": "medium",
+          "estimated_hours": 2,
+          "notes": "",
+          "attachments": []
+        },
+        {
+          "id": "time_2",
+          "text": "Create project timeline with key milestones",
+          "completed": false,
+          "priority": "medium",
+          "estimated_hours": 2,
+          "notes": "",
+          "attachments": []
+        },
+        {
+          "id": "time_3",
+          "text": "Plan for project completion and final deliverables",
+          "completed": false,
+          "priority": "medium",
+          "estimated_hours": 2,
+          "notes": "",
+          "attachments": []
+        }
+      ],
+      "completed": 0,
+      "total": 3,
+      "priority": "medium"
+    },
+    "Legal & Compliance": {
+      "items": [
+        {
+          "id": "legal_1",
+          "text": "Understand contract terms and conditions",
+          "completed": false,
+          "priority": "high",
+          "estimated_hours": 3,
+          "notes": "",
+          "attachments": []
+        },
+        {
+          "id": "legal_2",
+          "text": "Verify insurance coverage and liability requirements",
+          "completed": false,
+          "priority": "high",
+          "estimated_hours": 3,
+          "notes": "",
+          "attachments": []
+        }
+      ],
+      "completed": 0,
+      "total": 2,
+      "priority": "high"
+    },
+    "Experience & Qualifications": {
+      "items": [
+        {
+          "id": "exp_1",
+          "text": "Document relevant experience and track record",
+          "completed": false,
+          "priority": "medium",
+          "estimated_hours": 4,
+          "notes": "",
+          "attachments": []
+        },
+        {
+          "id": "exp_2",
+          "text": "Gather references and testimonials",
+          "completed": false,
+          "priority": "medium",
+          "estimated_hours": 4,
+          "notes": "",
+          "attachments": []
+        }
+      ],
+      "completed": 0,
+      "total": 2,
+      "priority": "low"
+    },
+    "Contact & Communication": {
+      "items": [
+        {
+          "id": "contact_1",
+          "text": "Update all contact information and details",
+          "completed": false,
+          "priority": "low",
+          "estimated_hours": 1,
+          "notes": "",
+          "attachments": []
+        },
+        {
+          "id": "contact_2",
+          "text": "Identify key contacts and representatives",
+          "completed": false,
+          "priority": "low",
+          "estimated_hours": 1,
+          "notes": "",
+          "attachments": []
+        }
+      ],
+      "completed": 0,
+      "total": 2,
+      "priority": "low"
+    },
+    "Submission Requirements": {
+      "items": [
+        {
+          "id": "sub_1",
+          "text": "Prepare final submission package",
+          "completed": false,
+          "priority": "high",
+          "estimated_hours": 2,
+          "notes": "",
+          "attachments": []
+        },
+        {
+          "id": "sub_2",
+          "text": "Ensure correct submission format and signatures",
+          "completed": false,
+          "priority": "high",
+          "estimated_hours": 2,
+          "notes": "",
+          "attachments": []
+        },
+        {
+          "id": "sub_3",
+          "text": "Confirm submission deadline and delivery method",
+          "completed": false,
+          "priority": "high",
+          "estimated_hours": 2,
+          "notes": "",
+          "attachments": []
+        }
+      ],
+      "completed": 0,
+      "total": 3,
+      "priority": "high"
+    }
+  },
+  "summary": {
+    "word_count": 174,
+    "sentence_count": 12,
+    "complexity_score": 1.0,
+    "key_sections": [
+      "EVALUATION CRITERIA",
+      "schedule",
+      "REQUIREMENTS",
+      "specifications",
+      "CRITERIA",
+      "timeline",
+      "deadline"
+    ],
+    "document_type": "RFP",
+    "is_ocr_content": false,
+    "requirements_found": 14
+  },
+  "estimated_completion_time": {
+    "total_hours": 36,
+    "estimated_days": 4
+  },
+  "critical_deadlines": [
+    {
+      "type": "deadline",
+      "date": "March 15, 2024",
+      "context": "deadline\n    \n    SUBMISSION DETAILS:\n    - Submission deadline: March 15, 2024"
+    },
+    {
+      "type": "by",
+      "date": "March 15, 2024",
+      "context": "by the deadline\n    \n    SUBMISSION DETAILS:\n    - Submission deadline: March 15, 2024"
+    }
+  ]
+}

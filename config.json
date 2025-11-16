@@ -1,0 +1,43 @@
+{
+  "app": {
+    "name": "Tender Management System",
+    "version": "1.0.0",
+    "window_geometry": "1200x800",
+    "theme": "default"
+  },
+  "paths": {
+    "data_dir": "data",
+    "documents_dir": "data/documents",
+    "checklists_dir": "data/checklists",
+    "projects_dir": "data/projects",
+    "temp_dir": "temp"
+  },
+  "parsing": {
+    "max_file_size_mb": 50,
+    "supported_formats": [
+      ".pdf",
+      ".docx",
+      ".doc",
+      ".xlsx",
+      ".xls",
+      ".txt"
+    ],
+    "encoding_fallback": "utf-8"
+  },
+  "search": {
+    "min_word_length": 3,
+    "max_results": 20,
+    "snippet_length": 200
+  },
+  "pipeline": {
+    "auto_save": true,
+    "backup_frequency_minutes": 30,
+    "max_file_uploads_per_section": 50
+  },
+  "ui": {
+    "show_tips": true,
+    "confirm_deletions": true,
+    "auto_refresh": true,
+    "font_size": 10
+  }
+}
