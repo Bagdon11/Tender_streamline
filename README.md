@@ -1,22 +1,24 @@
-# Tender Management System
+# 📋 Tender Management System
 
 A comprehensive desktop application for managing tender information, creating personalized checklists, automating form filling, and tracking project costs. Built specifically for New Zealand business requirements with support for NZBN, bank account verification, and compliance documentation.
 
+> **🎯 Win More Tenders** | **⚡ Save Time** | **✅ Stay Compliant** | **🇳🇿 Built for NZ**
+
 ## 🚀 Features
 
-### **Document Processing & OCR**
+### **📄 Document Processing & OCR**
 - **Multi-format support**: PDF, Word, Excel, Text files
 - **Advanced OCR**: Extract text from scanned PDFs and images using Tesseract
 - **Smart parsing**: Automatic fallback chain (PyPDF2 → pdfplumber → OCR)
 - **Document persistence**: Auto-reload documents on startup
 
-### **Intelligent Search Engine**
+### **🔍 Intelligent Search Engine**
 - **TF-IDF scoring**: Advanced relevance-based search
 - **Content analysis**: Document statistics and insights
 - **Quick search**: Find information across all uploaded documents
 - **Search history**: Track and revisit previous searches
 
-### **Database Management System**
+### **💼 Database Management System**
 - **Company profiles**: Comprehensive business information storage
 - **NZ Business identifiers**: NZBN, Company Number, GST Number support
 - **Contact management**: Team contacts with roles and details
@@ -24,31 +26,31 @@ A comprehensive desktop application for managing tender information, creating pe
 - **Certifications & insurance**: License and policy management
 - **Project experience**: Previous work and client history
 
-### **Bank Account Management**
+### **🏦 Bank Account Management**
 - **NZ bank details**: Bank name, account name, account number
 - **Document evidence**: Upload bank statements and verification documents
 - **Image preview**: Hover to preview uploaded bank documents
 - **File management**: Store and organize financial evidence
 
-### **Project Cost Breakdown System**
+### **💰 Project Cost Breakdown System**
 - **35+ cost categories**: Labor, equipment, operational, project-specific costs
 - **NZ compliance**: ACC, KiwiSaver, GST, holiday provisions
 - **Smart calculator**: Automatic totaling with overhead and profit margins
 - **Professional breakdowns**: Detailed cost analysis and reporting
 
-### **PDF Form Auto-Fill**
+### **📝 PDF Form Auto-Fill**
 - **Form analysis**: Detect and analyze fillable PDF fields
 - **Smart mapping**: Auto-match form fields to database information
 - **Static PDF conversion**: Transform non-fillable PDFs to fillable forms
 - **Auto-suggestions**: Generate completion suggestions for any PDF
 
-### **Web Form Automation**
+### **🌐 Web Form Automation**
 - **Browser automation**: Auto-fill web forms using Selenium
 - **Field detection**: Smart identification of form elements
 - **Data mapping**: Connect database info to web form fields
 - **Multi-browser support**: Chrome, Firefox, Edge compatibility
 
-### **Personalized Checklists**
+### **✅ Personalized Checklists**
 - **AI-generated tasks**: Custom checklists based on tender requirements
 - **Progress tracking**: Mark completion and track progress
 - **Export options**: Save checklists for external use
@@ -56,14 +58,14 @@ A comprehensive desktop application for managing tender information, creating pe
 
 ## 📋 Requirements
 
-### **Core Dependencies**
+### **🐍 Core Dependencies**
 ```
 Python 3.13.5+
 tkinter (GUI framework)
 SQLite (database)
 ```
 
-### **Document Processing**
+### **📚 Document Processing**
 ```
 PyPDF2>=3.0.1         # PDF processing
 pdfplumber>=0.11.0     # Advanced PDF extraction
@@ -74,34 +76,34 @@ openpyxl>=3.1.2        # Excel processing
 pandas>=2.0.0          # Data analysis
 ```
 
-### **Image & Graphics**
+### **🎨 Image & Graphics**
 ```
 Pillow>=10.0.0         # Image processing
 PyMuPDF>=1.23.0        # PDF preview generation
 ```
 
-### **Web Automation**
+### **🌐 Web Automation**
 ```
 selenium>=4.15.0       # Web form automation
 beautifulsoup4>=4.12.0 # HTML parsing
 requests>=2.31.0       # HTTP requests
 ```
 
-### **PDF Creation & Forms**
+### **📄 PDF Creation & Forms**
 ```
 reportlab>=4.0.0       # PDF creation
 PyPDF4>=3.0.0          # PDF manipulation
 fdfgen>=0.16.1         # PDF form field generation
 ```
 
-### **Build & Distribution**
+### **🔧 Build & Distribution**
 ```
 pyinstaller>=6.0.0     # Executable building
 ```
 
 ## 🛠️ Installation
 
-### **Quick Start**
+### **⚡ Quick Start**
 ```bash
 # Clone repository
 git clone <repository-url>
@@ -120,12 +122,12 @@ pip install -r requirements.txt
 python main.py
 ```
 
-### **OCR Setup (Required for scanned PDFs)**
+### **👁️ OCR Setup (Required for scanned PDFs)**
 1. **Download Tesseract**: https://github.com/UB-Mannheim/tesseract/wiki
 2. **Install Tesseract** to default location
 3. **Verify installation**: `tesseract --version`
 
-### **Poppler Setup (Required for PDF to image conversion)**
+### **📑 Poppler Setup (Required for PDF to image conversion)**
 - Poppler binaries are included in the `poppler/` directory
 - No additional installation required
 
@@ -186,9 +188,9 @@ Tender_streamline/
 └── assets/                   # Application resources
 ```
 
-## 🎯 Usage Guide
+## 💡 Usage Guide
 
-### **1. Document Management**
+### **1️⃣ Document Management**
 ```
 1. Launch application: python main.py
 2. Upload documents using "Upload Documents" button
@@ -197,7 +199,7 @@ Tender_streamline/
 5. Documents auto-reload on next startup
 ```
 
-### **2. Company Database**
+### **2️⃣ Company Database**
 ```
 1. Click "Manage Database"
 2. Add/select company
@@ -208,7 +210,7 @@ Tender_streamline/
 7. Configure project cost breakdowns
 ```
 
-### **3. PDF Form Auto-Fill**
+### **3️⃣ PDF Form Auto-Fill**
 ```
 1. Click "Auto-Fill PDF Forms"
 2. Select PDF file (fillable or static)
@@ -217,7 +219,7 @@ Tender_streamline/
 5. Generate filled PDF or fillable version
 ```
 
-### **4. Web Form Automation**
+### **4️⃣ Web Form Automation**
 ```
 1. Click "Auto-Fill Web Forms"
 2. Enter website URL
@@ -226,7 +228,7 @@ Tender_streamline/
 5. Review and submit
 ```
 
-### **5. Project Cost Calculation**
+### **5️⃣ Project Cost Calculation**
 ```
 1. Go to Database → Project Costs tab
 2. Enter labor rates and operational costs
@@ -238,19 +240,19 @@ Tender_streamline/
 
 ## 📊 New Zealand Compliance Features
 
-### **Business Identifiers**
+### **🏢 Business Identifiers**
 - ✅ **NZBN (New Zealand Business Number)** validation
 - ✅ **Company Number** for incorporated entities
 - ✅ **GST Number** for tax-registered businesses
 - ✅ **Charity Number** for registered charities
 
-### **Employment Compliance**
+### **👥 Employment Compliance**
 - ✅ **ACC levy calculations** (% of wages)
 - ✅ **KiwiSaver employer contributions** (minimum 3%)
 - ✅ **Holiday pay provisions** (8% minimum)
 - ✅ **Overtime rate calculations**
 
-### **Financial Requirements**
+### **💳 Financial Requirements**
 - ✅ **Bank account verification** with document upload
 - ✅ **GST calculations** (15% where applicable)
 - ✅ **Professional service costs** (legal, accounting)
@@ -271,7 +273,7 @@ Tender_streamline/
 - ✅ **Data persistence** with auto-loading
 - ✅ **Professional cost calculations** with NZ compliance
 
-### **🎯 Ready for Production Use**
+### **🚀 Ready for Production Use**
 The application is fully functional for:
 - Professional tender document management
 - Comprehensive business information storage
@@ -279,15 +281,15 @@ The application is fully functional for:
 - Accurate project cost estimation
 - NZ compliance and regulatory requirements
 
-## 🚀 Advanced Features
+## 🎯 Advanced Features
 
-### **Smart Form Field Recognition**
+### **🤖 Smart Form Field Recognition**
 - Automatic detection of company name, address, phone fields
 - Recognition of financial fields (turnover, profit, costs)
 - Bank account field identification
 - Project cost and rate field mapping
 
-### **Professional Cost Calculations**
+### **💼 Professional Cost Calculations**
 ```
 Example Calculation:
 Labor Costs:        $50,000
@@ -302,7 +304,7 @@ Profit (12.5%):     $14,844
 TOTAL:            $133,594
 ```
 
-### **Document Evidence Management**
+### **📸 Document Evidence Management**
 - Upload bank statements as verification
 - Image preview on hover for quick identification
 - File size tracking and organization
@@ -310,18 +312,18 @@ TOTAL:            $133,594
 
 ## 🔐 Security & Privacy
 
-- **Local storage only**: All data stored on your computer
-- **No cloud dependencies**: Complete offline operation
-- **Encrypted document handling**: Secure file processing
-- **User control**: Full control over data and access
+- **🔒 Local storage only**: All data stored on your computer
+- **☁️ No cloud dependencies**: Complete offline operation
+- **🛡️ Encrypted document handling**: Secure file processing
+- **👤 User control**: Full control over data and access
 
 ## 📞 Support & Documentation
 
-- **Feature guides**: See `*.md` files for detailed feature documentation
-- **Cost breakdown guide**: `PROJECT_COST_BREAKDOWN.md`
-- **Bank account setup**: `BANK_IMAGE_PREVIEW.md`
-- **Database features**: `DATABASE_SYSTEM.md`
-- **Web automation**: `WEB_FORM_AUTOFILL.md`
+- **📖 Feature guides**: See `*.md` files for detailed feature documentation
+- **💰 Cost breakdown guide**: `PROJECT_COST_BREAKDOWN.md`
+- **🏦 Bank account setup**: `BANK_IMAGE_PREVIEW.md`
+- **💾 Database features**: `DATABASE_SYSTEM.md`
+- **🌐 Web automation**: `WEB_FORM_AUTOFILL.md`
 
 ## 📄 License
 
@@ -329,4 +331,4 @@ MIT License - See LICENSE file for details
 
 ---
 
-**Built for New Zealand businesses** - Supporting local compliance requirements and tender processes with professional-grade automation and cost management.
+**🇳🇿 Built for New Zealand businesses** - Supporting local compliance requirements and tender processes with professional-grade automation and cost management.
